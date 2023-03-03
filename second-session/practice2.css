@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: #914564;
+}
+table{
+    border: 5px solid #0099be;
+
+
+}
+tr ,th , td{
+    border: 5px solid #875690;
+    text-align:center;
+    width: 100px;
+    height: 50px;
+    padding: 3px;
+    
+}
+th{
+    background-color: #ffe4f5;
+}
+td{
+    background-color: #fff4fb;
+}
