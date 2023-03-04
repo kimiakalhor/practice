@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <!-- * سعی کن هر قسمت از سایت رو همیشه داخل یک تگ دیو بندازی تا هم جلوه قشنگی داشته باشه و هم دسته بندی بشه -->
+    <!-- * من برات انجام دادم این بار رو -->
+    <form>
+        <div>
+            <label>First Name</label><br />
+            <input type="text" placeholder="Enter your firstname" class="name"><br /><br />
+        </div>
+        <div>
+            <label>Last Name</label><br />
+            <input type="text" placeholder="Enter your lastname" class="name"><br /><br />
+        </div>
+        <div>
+            <label>Email</label><br />
+            <input type="text" placeholder="Enter your email" class="name"><br /><br />
+        </div>
+        <div>
+            <label>Which option discribe you?</label><br />
+            <select>
+                <option>Student</option>
+                <option>Teacher</option>
+                <option>Boss</option>
+            </select><br /><br />
+        </div>
+        <div>
+            <!-- * به تگ های رادیو همیشه یه اتریبوت یکسان بده تا بشه فقط یکی از گزینه ها رو انتخاب کرد -->
+            <!-- * من برات انجام دادم این بار رو -->
+            <label>Are you single?</label><br />
+            <label>YES</label>
+            <input type="radio" name="status">
+            <label>NO</label>
+            <input type="radio" name="status"><br /><br />
+        </div>
+        <div>
+            <label>Lnaguages konwn</label><br />
+            <div>
+                <input type="checkbox">
+                <label>C++</label><br />
+            </div>
+            <div>
+                <input type="checkbox">
+                <label>PYTHON</label><br />
+            </div>
+            <div>
+                <input type="checkbox">
+                <label>C#</label><br />
+            </div>
+            <div>
+                <input type="checkbox">
+                <label>JAVA</label><br /><br />
+            </div>
+        </div>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
