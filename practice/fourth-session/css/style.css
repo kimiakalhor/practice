@@ -1,0 +1,14 @@
+h2{
+    text-align: center;
+    color: orangered;
+}
+progress{
+    accent-color: YELLOW;
+    width: 300px;
+    height: 60px;
+    margin: 2px;
+}
+
+
+
+

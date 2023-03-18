@@ -1,0 +1,13 @@
+/* 
+* چون عکس رو گذاشتم داخل یه پوشه دیگه کنار پوشه  سی اس اس، ما باید اول از اینجا که هستیم یه پوشه به عقب برگردیم با ../ و بعد بریم داخل پوشه عکس ها
+*/
+body{
+    background-image:url(../images/bg.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+p{
+    font-size: 24px;
+    color: rgb(191, 189, 50);
+}
